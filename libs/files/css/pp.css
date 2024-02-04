@@ -1,0 +1,92 @@
+.pagination{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 10px;
+	padding-bottom: 30px;
+}
+
+.pagination>li{
+	padding: 2px;
+	display:inline;
+}
+
+.pagination>li>a,
+.pagination>li>span{
+	outline: none !important;
+	margin: 0 2.3px;
+	padding: 5px 10px;
+	transition: all .1s linear;
+	color: #E1E3ED !important;
+   	background-image: linear-gradient(to top,#1a1c24 0,#20232a 100%);
+   	box-shadow: 0 0 10px 2px rgba(0,0,0,1);
+	text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+	transition: all .2s linear;
+	font-weight: bold;
+	z-index: 10;
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span{
+	margin-left:0;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	transition: all .2s linear;
+
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span{
+	border-top-right-radius:4px;
+	order-bottom-right-radius:4px;
+	transition: all .2s linear;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover{
+	transition: all .2s linear;
+	z-index:2;
+	color: #8ac832 !important;
+	background-color: #e84118;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{
+	background-image: linear-gradient(to bottom,#1a1c24 0,#20232a 100%);
+	transition: all .2s linear;
+	color: #8ac832 !important;
+
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover{
+	background-image: linear-gradient(to bottom,#1a1c24 0,#20232a 100%);
+	transition: all .2s linear;
+}
+
+.pagination-lg>li>a,
+.pagination-lg>li>span{
+	padding:10px 16px;
+	font-size:18px;
+	line-height:1.3333333;
+	outline: none !important;
+	transition: all .2s linear;
+}
+
+.pagination-lg>li>a:focus,
+.pagination-lg>li>a:active,
+.pagination-lg>li>span:focus,
+.pagination-lg>li>span:active
+{
+	outline: none !important;
+}

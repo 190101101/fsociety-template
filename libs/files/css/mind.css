@@ -1,0 +1,129 @@
+.tab-blog{
+	background: none;
+	box-shadow: 1px 2px 10px 3px #080C0F;
+	display: flex;
+	flex-direction: column;
+	height: 110px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	transition: all .3s linear;
+}
+
+.tab-blog:hover{
+	box-shadow: 1px 2px 20px 10px #080C0F;
+	transition: all .3s linear;
+}
+
+.tab-blog-inner{
+	display: flex;
+	flex-direction: row;
+	height: 110px;
+}
+
+.tab-blog-img-box{
+	width: 30%;
+}
+
+.tab-blog-img{
+	width: 100%;
+	height: 110px !important;
+}
+
+.tab-blog-content-box{
+	display: flex;
+	flex-direction: column;
+	padding-left: 5px;
+	width: 70%;
+	height: 100%;
+	color: #e84118;
+}
+
+.tab-blog-title{
+	color: #e84118;
+	display: flex;
+	font-family: 'Pangolin', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.tab-blog-info-box{
+	display: flex;
+	flex-direction: row;
+	font-size: 13px;
+	justify-content: space-between;
+}
+
+.tab-blog-info-box span img{
+	width: 13px;
+	height: 13px;
+	margin-right: 3px;
+}
+
+.tab-blog-info-box span i{
+	margin-right: 3px;
+}
+
+.tab-blog-info-download{
+	color: #e84118;
+}
+
+.tab-blog-content-inner{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.tab-blog-content{
+	font-size: 13px;
+}
+
+.tab-blog-content-under-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 10px;
+}
+
+.tab-blog-views{
+	font-size: 13px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.tab-blog-views img{
+	margin-right: 3px;
+	width: 20px;
+	height: 20px;
+}
+
+.tab-blog-views i{
+	margin-right: 5px;
+}
+
+.tab-blog-btn{
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 6px 3px #e84118;
+	color: #e84118 !important;
+	font-family: 'Pangolin', cursive;
+	outline: none;
+	padding: 1px 15px;
+	position: relative;
+	top: -6px;
+	transition: all .3s linear;
+}
+
+.tab-blog-btn:hover{
+	background: #e84118;
+	box-shadow: 0px 0px 12px 3px #e84118;
+	color: #8ac832 !important;
+	transition: all .3s linear;
+}
+
+
+.history-sidebar .tab-pane{
+	margin: 5px 0px;
+}

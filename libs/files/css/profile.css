@@ -1,0 +1,177 @@
+.profile-content{
+	width: 100%;
+  background: #080C0F;
+  box-shadow: 0px 0px 10px 10px #080C0F;
+  margin-bottom: 30px;
+}
+
+.profile-content-head{
+  display: flex;
+}
+
+.profile-content .profile-content-title{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 30px;
+  color: #8ac832;
+}
+
+.profile-img{
+	transition: all .1s linear;
+	width: 80px;
+	height: 80px;
+	margin-right: 5px;
+	z-index: 10;
+	box-shadow: 0px 0px 10px 5px #fff;
+}
+
+.profile-content-category-count{
+	display: flex;
+	align-items: center;
+}
+
+.profile-content .profile-content-category-count span{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 20px;
+	color: #8ac832;
+	margin: 0px 2px;
+}
+
+.profile{
+  margin-top: 10px;
+	padding: 20px 20px; 
+  width: 100%;
+  height: 100%;
+  background: #080C0F;
+}
+
+.profile-nav{
+  margin-top: 1px;
+	display: flex;
+	justify-content: center;
+  background: #080C0F;
+  padding: 5px 0px;
+}
+
+.profile-link{
+	margin: 0px 10px;
+	color: #fff !important;
+}
+
+.link-active.profile-link{
+	color: #8ac832 !important;
+	transition: all .2s linear;
+}
+
+.profile-form{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.profile-form input{
+  background: none;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px 2px #e84118;
+  width: 100%;
+  padding: 2px 10px;
+  color: #8ac832;
+  transition: all .2s linear;
+}
+
+.profile-form input:hover{
+  box-shadow: 0px 0px 12px 6px #e84118;
+  transition: all .2s linear;
+}
+
+.profile-form input::placeholder{
+  color: #e84118;
+}
+
+.profile-form input[type=file]::-webkit-file-upload-button{
+  background-color: #14171a;
+  outline: none;
+  border: none;
+  color: #41B883;
+  width: 50%;
+}
+
+.profile-form input[type=file]::-webkit-file-upload-button:hover{
+  background-color: #14171a;
+  outline: none;
+  border: none;
+  color: #e84118;
+}
+
+
+.profile-form input[type=file]{
+  padding: 0;
+  color: #e84118;
+} 
+
+.profile-form input[type=file]:hover{
+  transition: all .2s linear;
+  background: #e84118;
+  color: #8ac832;
+}
+
+.profile-form input::selection{
+  color: #e84118 !important;
+}
+
+.form-btn-box{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-form button{
+  outline: none !important;
+  background: none;
+  border: none;
+  transition: all .2s linear;
+  box-shadow: 0px 0px 12px 3px #e84118;
+  color: #e84118;
+  padding: 3px 13px;
+}
+
+.profile-form button:hover{
+  background: #e84118;
+  color: #8ac832;
+  transition: all .2s linear;
+  box-shadow: 0px 0px 12px 6px #e84118;
+}
+
+
+.formbox{
+  display: flex;
+}
+
+.formboxleft{
+  width: 89%;
+  margin-right: 5px;
+}
+
+.formboxright{
+  text-align: center;
+  overflow: hidden;
+  width: 10%;
+}
+
+.formboximg{
+  width: 27px;
+}
+
+.forminputinfo{
+  color: #e84118;
+  font-weight: bold;
+}
+
+.profile-tab-menu{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-tab-menu li{
+	margin: 0 10px;
+}

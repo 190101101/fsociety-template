@@ -1,0 +1,39 @@
+media.xs.css de
+@media screen and (max-width: 1279px ){
+/*
+  .section-sidebar{
+      display: none;
+       transition: all 150ms linear;
+   }
+*/
+  
+
+media.md.css de 
+
+  @media screen and (min-width: 992px) and (max-width: 1279px){
+  .page-content{
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1279px){
+  .wrap{
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .section-sidebar{
+      min-height: 900px;
+      width: 25% !important;
+      z-index: 102;
+      max-height: 100%;
+      background-color: #1f2326;
+      transition: all 150ms linear;
+      overflow-x: hidden;
+      right: 20px !important;
+    }
+
+    .content{
+      width: 74% !important;
+    }
+}

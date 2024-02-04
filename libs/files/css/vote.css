@@ -1,0 +1,167 @@
+.votings{
+	margin: 10px;
+	width: 90%;
+	transition: all .2s linear;
+}
+
+.votecontent{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 140px;
+}
+
+.votecontentbox{
+	padding: 5px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.votedate{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 13px;
+	color: #20B2AA !important;
+}
+
+.votetext{
+	font-size: 15px;
+	line-height: 17px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #FF1493 !important;
+}
+
+.votesbox{
+	margin: 10px 0;
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.votebtn{
+	background: none;
+	border: none !important;
+	padding: 0px 10px;
+	transition: .2s linear;
+}
+
+.votebtn:focus{
+	outline: none;
+}	
+
+.votea{
+	color: #FF1493 !important;
+	box-shadow: 0px 0px 10px 3px #FF1493, inset 0px 0px 3px 1px #FF1493 !important;
+}
+
+.votea:hover{
+	transition: .2s linear;
+	box-shadow: 0px 0px 15px 3px #FF1493 !important;
+	color: #fff !important;
+	background: #FF1493 !important;
+}
+
+.voteb{
+	color: #00FF7F !important;
+	box-shadow: 0px 0px 10px 3px #00FF7F, inset 0px 0px 3px 1px #00FF7F !important;
+}
+
+.voteb:hover{
+	transition: .2s linear;
+	box-shadow: 0px 0px 15px 3px #00FF7F !important;
+	background: #00FF7F !important;
+	color: #FF1493 !important;
+}
+
+.voteprogressbox{
+	height: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.voteaprgbox{
+	background: #000;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.vboxa{
+	box-shadow: 0px 0px 10px 3px #FF1493, inset 0px 0px 6px 3px #FF1493 !important;
+}
+
+.vboxb{
+	box-shadow: 0px 0px 10px 3px #00FF7F, inset 0px 0px 6px 3px #00FF7F !important;
+}
+
+.voteaprgbox span{
+	font-size: 13px;
+}
+
+.voteaprga:after{
+	content: '57%';
+	display: block;
+	position: absolute;
+	transform: translateY(-20px);
+	left: 80%;
+	color: #fff;
+}
+
+.voteaprga{
+	display: block;
+	background: #FF1493 !important;
+	width: 70%;
+	color: #000;
+}
+
+.voteaprgb{
+	color: #000;
+	display: block;
+	background: #00FF7F !important;
+	width: 40%;
+}
+
+.voteaprgb:after{
+	content: '43%';
+	display: block;
+	position: absolute;
+	transform: translateY(-20px);
+	left: 80%;
+	color: #fff;
+}
+
+
+.vote-under{
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.vote-under-head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.vote-under-img{
+	width: 30px;
+}
+
+.vote-hr-line{
+	background-image: linear-gradient(to right , #FF1493, #FF1493, #FF00FF, #FF00FF, #00FF7F, #00FF7F);
+	height: 3px;
+	margin: 0;
+	transition: all 2s linear;
+	width: 100%;
+}
+
+.vote-main-title{
+	color: rgb(255, 255, 255) !important;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 30px;
+	letter-spacing: -.5px;
+}

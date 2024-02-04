@@ -1,0 +1,115 @@
+/*pagination*/
+.pagination-content{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	transform: translateX(-120px) !important;
+}
+
+.pagination-inner-content{
+	display: flex;
+}
+
+.pagination-left-box{
+	background-image: linear-gradient(to bottom,#13151a 30%,#16191e 70%,#13151a 100%);
+	border: 2px solid #000;
+	padding-left: 5px !important;
+	transition: .5s linear;
+	z-index: 2;
+	display: flex;
+	align-items: start;
+	flex-wrap: nowrap;
+	border-bottom-right-radius: 40px;
+	position: relative;
+}
+
+.pagination-right-box{
+	background-image: linear-gradient(to right top, #0e131a, #0e131a, #0e131a, #0e131a, #0e131a);
+	border: 2px solid #000;
+	transform: translateX(-25px) !important;
+	display: flex;
+	align-items: start;
+	flex-wrap: nowrap;
+	padding-right: 5px;
+	padding-left: 20px;
+	z-index: 1;
+}
+
+.pagination-box{
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 6px 0px;
+}
+
+.pagination-left-box .pagination-box a{
+    border-radius: 2px;
+    border-left: 1px solid rgba(150,150,150,.1);
+    border-top: 1px solid rgba(150,150,150,.1);
+    border-right: 1px solid rgba(100,100,100,.1);
+    border-bottom: 1px solid rgba(100,100,100,.1);
+}
+
+.pagination-right-box .pagination-box a{
+	border-radius: 2px;
+	border-left: 1px solid rgba(150,150,150,.1);
+	border-top: 1px solid rgba(150,150,150,.1);
+	border-right: 1px solid rgba(100,100,100,.1);
+	border-bottom: 1px solid rgba(100,100,100,.1);
+}
+
+.pagination-box a span{
+	color: #E1E3ED !important;
+}
+
+.pagination-box a{
+	border: 1px solid #070808;
+	border-radius: 3px;
+	background-color: #171a20;
+	background-image: linear-gradient(to top,#1a1c24 0,#20232a 100%);
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.7);
+	text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000;
+	z-index: 2;
+	margin: 0px 3px;
+	padding: 0px 7px;
+	font-weight: bold;
+}
+
+.pagination-box a:hover{
+    background-image: linear-gradient(to bottom,#1a1c24 0,#20232a 100%);
+}
+
+.pagination-sf {
+	margin: 0px 3px;
+	position: relative;
+	background-image: linear-gradient(to top,#1a1c24 0,#20232a 100%);
+	color: #E1E3ED !important;
+}
+
+.knife{
+	background-image: linear-gradient(to bottom,#13151a 30%,#16191e 70%,#13151a 100%);
+	height: 100%;
+	width: 50px;
+	transform: skew(-20deg);
+	position: absolute;
+	z-index: 1;
+	right: -10px;
+
+}
+
+.knifecut{
+	z-index: 3;
+	background: #456789;
+	right: 0;
+	width: 3px;
+	height: 100%;
+	transform: skew(-0deg);
+	position: absolute;
+}
+
+.paginationtransform{
+	transform: translateX(240px) !important;
+}
+
+.pagination-circle{
+	color: green !important;
+}

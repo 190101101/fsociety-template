@@ -1,0 +1,24 @@
+/*.darkness{
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: 
+  url('../file/image/darkness.jpg'),
+  url('../file/image/logo.jpg');
+   background-size: 100% 100%;
+   opacity: .4;
+   transition: all 150ms linear;
+}
+*/
+
+.dark{
+	background: 
+ 	url('../file/image/post/elliot.jpg'),
+	url('../file/image/post/darkness.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: darken;
+  transition: all 400ms linear;
+  background-size: 100% 100%;
+}

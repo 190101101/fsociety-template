@@ -1,0 +1,153 @@
+.terminal{
+	padding: 10px;
+	z-index: 103;
+	bottom:  -400px;
+	display: flex;
+	flex-direction: column !important;
+	position: fixed;
+   transition: all 150ms linear;
+   height: 400px;
+   width: 100%;
+}
+
+.terminal-active.terminal{
+  bottom: 50px;
+  opacity: 1;
+  transition-timing-function: cubic-bezier(0,2,1,0.5);
+}
+
+.terminal-content{
+	background-color: #000 !important;
+	box-shadow: 0px 0px 50px 10px #000;
+	display: none;
+   opacity: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.terminal-content-active.terminal-content{
+	display: flex;
+	z-index: 103 !important;
+   opacity: 1;
+   transition-timing-function: cubic-bezier(0,2,1,0.5);
+}
+
+.terminal-btn{
+	border-bottom: 1px solid #14171a !important;
+	padding: 5px 0;
+	bottom: 80px;
+	border: none;
+	background: none;
+	z-index: 104;
+	display: flex;
+	align-items: flex-end;
+}
+
+.terminalimg{
+	top: 0px;
+	width: 25px;
+	position: relative;
+	margin-right: 5px;
+}
+
+.terminal-title{
+	color: #e84118;
+}
+
+.terminal-console{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.terminal-command-result{
+	height: 400px;
+	width: 100%;
+	overflow-x: hidden !important;
+	overflow-y: scroll !important;
+}
+
+.terminal-command-result::-webkit-scrollbar {
+   width: 10px;
+}
+
+.terminal-command-result::-webkit-scrollbar-track{
+   background-image: linear-gradient(to right top, #000000, #100e0e, #1a1817, #22211e, #292a26);
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.terminal-command-result::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(to right top, #ffbc00, #ff9a08, #ff7624, #ff4c39, #ff004e);
+  outline: 1px solid slategrey;
+}
+
+
+.terminal-command{
+	display: flex;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #41B883 !important;
+}
+
+.terminal-command span{
+	color: #41B883;
+}
+
+.command{
+	color: deeppink !important;
+	padding-left: 10px;
+}
+
+.terminal-table{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.terminal-table thead{
+	color: #41B883;
+}
+
+.terminal-table tbody{
+	color: deeppink;
+	/*color: #e84118;*/
+}
+
+.inner-console{
+	display: flex;
+	width: 100%;
+}
+
+.terminal-text{
+	color: yellow;
+	font-weight: bold;
+	background: none;
+	color: deeppink;
+	border: none;
+	outline: none;
+	flex-grow: 11;
+	flex-shrink: 0;
+	padding: 0 5px;
+}
+
+.server{
+	flex-grow: 0;
+	flex-shrink: 0;
+	color: deeppink;
+}
+
+.terminal-under-image{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-self: flex-end;
+	padding-bottom: 450px;
+	border-top: 1px solid #41B883 !important;
+}
+
+.terminal-under-image img{
+	position: absolute;
+	width: 700px;
+	height: 400px;
+}
